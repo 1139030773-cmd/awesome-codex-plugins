@@ -10,7 +10,8 @@ version: 2
 # models:
 #   - name: {{TABLE}}
 #     description: {{PURPOSE}}
-#     meta:
-#       data_contract:
-#         id: {{CONTRACT_ID}}
-#         file: models/output_ports/v1/{{CONTRACT_FILE}}
+#     config:
+#       meta:
+#         data_contract:
+#           id: {{CONTRACT_ID}}
+#           file: models/output_ports/v1/{{CONTRACT_FILE}}

@@ -78,16 +78,17 @@ For each contract:
    ```
 
    The contract file sits in the same directory as the SQL, so the comment names the file without a path prefix.
-4. Append the column list to `models/output_ports/v1/_models.yml` under `models:` — name, description (from contract), and tests derived from the contract: `not_null` for `required: true`, `unique` for `unique: true`, `accepted_values` if the contract defines an enum. Add a `meta.data_contract` block on the model that points back to the contract — this is the machine-readable counterpart to the SQL header comment, so `dbt list --select config.meta.data_contract.id:<id>`, dbt-docs, and lineage tooling can discover the link:
+4. Append the column list to `models/output_ports/v1/_models.yml` under `models:` — name, description (from contract), and tests derived from the contract: `not_null` for `required: true`, `unique` for `unique: true`, `accepted_values` if the contract defines an enum. Add a `config.meta.data_contract` block on the model that points back to the contract — this is the machine-readable counterpart to the SQL header comment, so `dbt list --select config.meta.data_contract.id:<id>`, dbt-docs, and lineage tooling can discover the link:
 
    ```yaml
    models:
      - name: <table>
        description: <from contract>
-       meta:
-         data_contract:
-           id: <CONTRACT_ID>
-           file: models/output_ports/v<N>/<contract-file>.odcs.yaml
+       config:
+         meta:
+           data_contract:
+             id: <CONTRACT_ID>
+             file: models/output_ports/v<N>/<contract-file>.odcs.yaml
        columns:
          - ...
    ```
@@ -123,10 +124,11 @@ For each output port table:
         - name: <provider-data-product-id>_<provider-output-port-id>
           database: <output port server.catalog>
           schema: <output port server.schema>
-          meta:
-            data_contract:
-              id: <provider-contract-id>
-              file: models/input_ports/<provider-output-port-id>.odcs.yaml
+          config:
+            meta:
+              data_contract:
+                id: <provider-contract-id>
+                file: models/input_ports/<provider-output-port-id>.odcs.yaml
           tables:
             - name: <table>   # from the contract's `models:` key — one entry per table in the contract
               description: <from contract>
