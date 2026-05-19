@@ -32,15 +32,18 @@ USER_AGENT = "awesome-codex-plugins-generator"
 RAW_DEFAULT_BRANCH_REF = "HEAD"
 OPTIONAL_PLUGIN_FILES = (
     "README.md",
+    "NOTICE.md",
     "SECURITY.md",
     "LICENSE",
     "LICENSE.md",
     "LICENSE.txt",
+    "pyproject.toml",
     "package.json",
     "pnpm-lock.yaml",
     "package-lock.json",
     "yarn.lock",
     ".codexignore",
+    ".agents/plugins/marketplace.json",
   )
 
 
