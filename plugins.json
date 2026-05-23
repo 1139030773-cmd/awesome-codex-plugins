@@ -3,7 +3,7 @@
   "name": "awesome-codex-plugins",
   "version": "1.0.0",
   "last_updated": "2026-05-23",
-  "total": 84,
+  "total": 86,
   "categories": [
     "Development & Workflow",
     "Tools & Integrations"
@@ -318,6 +318,16 @@
       "category": "Development & Workflow",
       "source": "awesome-codex-plugins",
       "install_url": "https://raw.githubusercontent.com/Habib0x0/spec-driven-plugin/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Staff Engineer Mode",
+      "url": "https://github.com/sirmarkz/staff-engineer-mode",
+      "owner": "sirmarkz",
+      "repo": "staff-engineer-mode",
+      "description": "Routes engineering design, delivery, reliability, security, operations, and maintenance prompts to focused staff-level specialist guidance for AI coding agents.",
+      "category": "Development & Workflow",
+      "source": "awesome-codex-plugins",
+      "install_url": "https://raw.githubusercontent.com/sirmarkz/staff-engineer-mode/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Stark",
@@ -688,6 +698,16 @@
       "category": "Tools & Integrations",
       "source": "awesome-codex-plugins",
       "install_url": "https://raw.githubusercontent.com/octo-patch/MorningAI/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Nullcost",
+      "url": "https://github.com/johnvouros/nullcost-plugin",
+      "owner": "johnvouros",
+      "repo": "nullcost-plugin",
+      "description": "Catalog-backed free-tier, free-trial, and cheap developer-tool recommendations for Codex through bundled skills and MCP tools.",
+      "category": "Tools & Integrations",
+      "source": "awesome-codex-plugins",
+      "install_url": "https://raw.githubusercontent.com/johnvouros/nullcost-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "OC ChatGPT Multi Auth",
