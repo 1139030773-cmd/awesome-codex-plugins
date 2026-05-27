@@ -40,6 +40,16 @@
       "install_url": "https://raw.githubusercontent.com/boshu2/agentops/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Alcove",
+      "url": "https://github.com/epicsagas/alcove",
+      "owner": "epicsagas",
+      "repo": "alcove",
+      "description": "Local-first MCP server for private project docs with hybrid BM25+vector search, tree-sitter code indexing, and automated linting for team-wide documentation standards.",
+      "category": "Development & Workflow",
+      "source": "awesome-codex-plugins",
+      "install_url": "https://raw.githubusercontent.com/epicsagas/alcove/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Anchor",
       "url": "https://github.com/biefan/anchor",
       "owner": "biefan",
