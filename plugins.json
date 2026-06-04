@@ -40,6 +40,17 @@
       "install_url": "https://raw.githubusercontent.com/Humiris/wwa-transform/HEAD/.codex-plugin/plugin.json"
     },
     {
+    {
+      "name": "Agent Workflow",
+      "url": "https://github.com/1139030773-cmd/agent-workflow-system",
+      "owner": "1139030773-cmd",
+      "repo": "agent-workflow-system",
+      "description": "Chinese AI workflow system with 6 role agents (routing, planning, execution, auditing, closeout). Strict permission isolation, 5-level escalation, Artifact handoff layer. Beginner-friendly. Codex & Claude Code.",
+      "category": "Development & Workflow",
+      "source": "awesome-codex-plugins",
+      "install_url": "https://raw.githubusercontent.com/1139030773-cmd/agent-workflow-system/HEAD/.codex-plugin/plugin.json"
+    },
+
       "name": "AgentOps",
       "url": "https://github.com/boshu2/agentops",
       "owner": "boshu2",
