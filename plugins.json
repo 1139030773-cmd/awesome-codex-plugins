@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-codex-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-06-04",
-  "total": 98,
+  "last_updated": "2026-06-07",
+  "total": 104,
   "categories": [
     "Development & Workflow",
     "Tools & Integrations"
@@ -310,6 +310,16 @@
       "install_url": "https://raw.githubusercontent.com/yimwoo/hotl-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "LLM Transpile",
+      "url": "https://github.com/epicsagas/llm-transpile",
+      "owner": "epicsagas",
+      "repo": "llm-transpile",
+      "description": "Auto-compress .md, .html, and .txt files via PostToolUse hook, cutting context usage by up to 40% with zero workflow change.",
+      "category": "Development & Workflow",
+      "source": "awesome-codex-plugins",
+      "install_url": "https://raw.githubusercontent.com/epicsagas/llm-transpile/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Personal Data Protection",
       "url": "https://github.com/AltByteSG/personal-data-protection-skill",
       "owner": "AltByteSG",
@@ -490,6 +500,16 @@
       "install_url": "https://raw.githubusercontent.com/HDeibler/universal-design-principles/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Velith",
+      "url": "https://github.com/epicsagas/Velith",
+      "owner": "epicsagas",
+      "repo": "Velith",
+      "description": "AI-native publishing system with a 6-phase pipeline from ideation to EPUB/PDF across 8 genres.",
+      "category": "Development & Workflow",
+      "source": "awesome-codex-plugins",
+      "install_url": "https://raw.githubusercontent.com/epicsagas/Velith/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "VibePortrait",
       "url": "https://github.com/dadwadw233/VibePortrait",
       "owner": "dadwadw233",
@@ -508,6 +528,16 @@
       "category": "Development & Workflow",
       "source": "awesome-codex-plugins",
       "install_url": "https://raw.githubusercontent.com/villagesql/villagesql-skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Workflow Kit",
+      "url": "https://github.com/Le-Xuan-Thang/workflow-kit",
+      "owner": "Le-Xuan-Thang",
+      "repo": "workflow-kit",
+      "description": "Full product lifecycle plugin for Claude Code, Codex CLI, and OpenCode: define Vision/Mission/Core → generate workplan → execute with mandatory cross-provider reviewer agents → synthesize deliverables → maintain, with parallel task execution, crash recovery, and AgentOps metrics.",
+      "category": "Development & Workflow",
+      "source": "awesome-codex-plugins",
+      "install_url": "https://raw.githubusercontent.com/Le-Xuan-Thang/workflow-kit/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Writer's Loop",
@@ -561,13 +591,23 @@
     },
     {
       "name": "Aient",
-      "url": "https://github.com/haf/aient-codex-plugin",
-      "owner": "haf",
+      "url": "https://github.com/aient-ai/aient-codex-plugin",
+      "owner": "aient-ai",
       "repo": "aient-codex-plugin",
       "description": "AI operations plugin for Codex that connects production telemetry, problem lifecycle context, and remediation workflows through Aient's MCP server.",
       "category": "Tools & Integrations",
       "source": "awesome-codex-plugins",
-      "install_url": "https://raw.githubusercontent.com/haf/aient-codex-plugin/HEAD/.codex-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/aient-ai/aient-codex-plugin/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Antigravity 2.0",
+      "url": "https://github.com/comprono/antigravity-2-codex-plugin",
+      "owner": "comprono",
+      "repo": "antigravity-2-codex-plugin",
+      "description": "Local Codex bridge for Antigravity desktop with setup checks, model limit summaries, DevTools UI automation, and safe project/chat handoff.",
+      "category": "Tools & Integrations",
+      "source": "awesome-codex-plugins",
+      "install_url": "https://raw.githubusercontent.com/comprono/antigravity-2-codex-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Apple Productivity",
@@ -870,6 +910,16 @@
       "install_url": "https://raw.githubusercontent.com/papersflow-ai/papersflow-codex-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "PDF Monster",
+      "url": "https://github.com/jbaehova/pdf-monster",
+      "owner": "jbaehova",
+      "repo": "pdf-monster",
+      "description": "Analyzes PDFs as extracted text, OCR text, rendered page images, and embedded figures for coding agents.",
+      "category": "Tools & Integrations",
+      "source": "awesome-codex-plugins",
+      "install_url": "https://raw.githubusercontent.com/jbaehova/pdf-monster/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "prompt-to-asset",
       "url": "https://github.com/MohamedAbdallah-14/prompt-to-asset",
       "owner": "MohamedAbdallah-14",
@@ -988,6 +1038,16 @@
       "category": "Tools & Integrations",
       "source": "awesome-codex-plugins",
       "install_url": "https://raw.githubusercontent.com/CarrotGamesStudios/vidseeds-mcp/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "X Twitter Scraper",
+      "url": "https://github.com/Xquik-dev/x-twitter-scraper",
+      "owner": "Xquik-dev",
+      "repo": "x-twitter-scraper",
+      "description": "X/Twitter data, monitored workflows, HMAC webhooks, and MCP access through the Xquik REST API with confirmation-gated write guidance.",
+      "category": "Tools & Integrations",
+      "source": "awesome-codex-plugins",
+      "install_url": "https://raw.githubusercontent.com/Xquik-dev/x-twitter-scraper/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Yandex Direct",
